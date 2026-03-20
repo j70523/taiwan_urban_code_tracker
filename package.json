@@ -1,0 +1,33 @@
+{
+  "name": "taiwan_urban_code_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/ncp.js",
+  "bin": {
+    "ncp": "./bin/ncp.js"
+  },
+  "scripts": {
+    "start": "node bin/ncp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j70523/taiwan_urban_code_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/j70523/taiwan_urban_code_tracker/issues"
+  },
+  "homepage": "https://github.com/j70523/taiwan_urban_code_tracker#readme",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.3",
+    "fuse.js": "^7.1.0",
+    "xml2js": "^0.6.2"
+  }
+}
