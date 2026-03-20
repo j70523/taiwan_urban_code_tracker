@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node bin/ncp.js",
+    "mcp": "node bin/mcp-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/j70523/taiwan_urban_code_tracker#readme",
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
     "axios": "^1.13.6",
     "chalk": "^4.1.2",
     "cli-progress": "^3.12.0",
